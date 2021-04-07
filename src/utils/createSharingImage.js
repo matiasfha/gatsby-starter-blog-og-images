@@ -19,4 +19,4 @@ const createSharingImage = ({ cloudName, text }) => {
   return `${baseUrl}${imageTransformations}/${textTransformations}/example_social_card.jpg`
 }
 
-export default createSharingImage
+module.exports = createSharingImage
